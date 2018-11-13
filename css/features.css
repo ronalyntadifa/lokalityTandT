@@ -213,7 +213,7 @@ section {
 	
 }
 #img1:hover {
-	background-image: url(../gif/sfc.gif);
+	background-image: url(../gif/sfc.GIF);
 	background-position: center;
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -230,7 +230,7 @@ section {
 }
 
 #img2:hover {
-	background-image: url(../gif/sj.gif);
+	background-image: url(../gif/sj.GIF);
 	background-position: top center;
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -246,7 +246,7 @@ section {
 	
 }
 #img3:hover {
-	background-image: url(../gif/luna.gif);
+	background-image: url(../gif/luna.GIF);
 	background-position: center;
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -262,7 +262,7 @@ section {
 	
 }
 #img4:hover {
-	background-image: url(../gif/sangabriel.gif);
+	background-image: url(../gif/sangabriel.GIF);
 	background-position: center;
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -278,7 +278,7 @@ section {
 	
 }
 #img5:hover {
-	background-image: url(../gif/pugo.gif);
+	background-image: url(../gif/pugo.GIF);
 	background-position: center;
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -294,7 +294,7 @@ section {
 	
 }
 #img6:hover {
-	background-image: url(../gif/balaoan.gif);
+	background-image: url(../gif/balaoan.GIF);
 	background-position: bottom center;
 	background-repeat:no-repeat;
 	background-size: cover;
