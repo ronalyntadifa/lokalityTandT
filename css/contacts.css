@@ -1,0 +1,125 @@
+body {
+	color: black;
+	font-family: Courier New;
+	background:#f4f4f4;
+	font-weight:400;
+    line-height:1.8em;
+	margin: 0 50px 0 50px;
+}
+body, html{
+	height:100%;
+}
+a {
+	text-decoration: none;
+	color: black;
+
+}
+.button{
+	background: #ffd6b1; 
+	color: black;
+	padding: 10px 20px;
+	transition: all .5s ease-out;
+}
+.button:hover{
+	background: #aad4ec;
+	color: black; 
+}
+#main-menu {
+	padding: 15px;
+	margin: 0;
+	text-align: center;
+	list-style: none;    
+	display: grid;       
+	grid-gap: 15px;          
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr ;
+	width: 100%;
+	background: #f4f4f4;
+}
+.main-article{
+	text-align: center;
+	color: white;
+	padding: 50px;
+	margin-bottom: 20px;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	z-index: 0;
+	min-height: 50%;
+	background-image:  url(../images/contact.jpg);
+}
+.contact {
+	font-size: 50px;
+	padding: 20px;
+	background: #aad4ec;
+	opacity:0.6;
+}
+.book{
+	background: yellow;
+}
+.contact{
+	color: #000;
+	background: #aad4ec;
+	text-align: center;
+	padding: 20px;
+}
+.article {
+	padding: 0px;
+	margin-bottom: 0px;
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: 1fr 1fr;
+	background-color: #f4f4f4;
+}
+.article-top {
+	text-align: center;
+}
+.question {
+	padding: 14px;
+	border: double;
+	background: #aad4ec;
+	color: #414040;
+	text-align: center;
+}
+.question:hover {
+	background-color:#deffff;
+}
+
+.article-bottom {
+	text-align: center;
+}
+.information {
+	border: double;
+	padding: 0px;
+	background: #ffd6b1;
+	text-align: center;
+	list-style: none;
+}
+.link:hover{
+	opacity:0.6
+}
+	
+.caption{
+	color: black;
+	background: #aad4ec;
+	opacity:0.6;
+	padding:5px;
+
+}
+.caption:hover {
+	background: 
+}
+.footer {
+	background-color:#aad4ec ;
+	text-align: center;
+	padding: 20px;
+	margin: 20;
+	transition: all .5s ease-out;
+}
+.logo{
+	background-color: #5d7e72;
+	text-align: center;
+	margin-bottom: 10px;
+}

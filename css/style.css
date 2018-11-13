@@ -1,0 +1,139 @@
+body {
+	color: black;
+	font-family: Courier New;
+	background:#f4f4f4;
+	font-weight:400;
+    line-height:1.8em;
+	margin: 0 50px 0 50px;
+}
+body, html{
+	height:100%;
+}
+a {
+	text-decoration: none;
+}
+/*-----------------------------------------HEADER MEYN------------------------------------------------*/
+.header {
+    position: fixed;
+    right: 50px;
+    width: 100%;
+    top:0;
+    left: 0;
+    display: grid;
+    justify-content: none;
+    align-items: center;
+    z-index: 1;
+    text-align: center; 
+}
+.button{
+	background: #ffd6b1; 
+	color: black;
+	padding: 10px 20px;
+	transition: all .5s ease-out;
+}
+.button:hover{
+	background: #aad4ec;
+	color: black; 
+}
+#main-menu {
+	padding: 15px;
+	margin: 0;
+	text-align: center;
+	list-style: none;    
+	display: grid;       
+	grid-gap: 15px;          
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr ;
+	width: 100%;
+	background: #f4f4f4;
+}
+/*--------------------------------------------------something---------------------------------------------------------*/
+.gif {
+	background-image: url(../gif/launion.gif);
+	position: relative;
+	background-position: 55% 45%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height:90%;
+	width: 90%;
+}
+#vid {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.showcase{
+	margin-bottom: 10px;
+	padding: 0;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height:80%;
+	width: 80%;
+}
+.quote{
+	opacity: 0.8;
+	text-align:center;
+	padding:50px;
+	background: #aad4ec;
+}
+/*.place:hover;{
+	opacity:  0.6;
+}*/
+.place {
+	margin-bottom: 0;
+}
+.button2{
+	padding:15px 25px;
+	transition: all .5s ease-out;
+}
+.button2:hover{
+	opacity:0.6
+}
+.images {
+	/*box-shadow: 0 0 10px black;
+	padding: 0;*/
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr  1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+#machooo{
+	padding: 10px;
+	box-shadow: 0 0 10px black;
+}
+/* MAIN FOOTER SECTION */
+.footer{
+	background-color: #5d7e72;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

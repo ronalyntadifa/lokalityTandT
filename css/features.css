@@ -1,0 +1,353 @@
+body {
+	color: black;
+	font-family: Courier New;
+	background:#f4f4f4;
+	font-weight:400;
+    line-height:1.8em;
+	margin: 0 50px 0 50px;
+}
+body, html{
+	height:100%;
+}
+a {
+	text-decoration: none;
+}
+/*-----------------------------------------HEADER MEYN------------------------------------------------*/
+.hd{ 
+ padding: 55px;
+}
+.header {
+    position: fixed;
+    right: 50px;
+    width: 100%;
+    top:0;
+    left: 0;
+    display: grid;
+    justify-content: none;
+    align-items: center;
+    z-index: 1;
+    text-align: center; 
+}
+.button{
+	background: #ffd6b1; 
+	color: black;
+	padding: 10px 20px;
+	transition: all .5s ease-out;
+}
+.button:hover{
+	background: #aad4ec;
+	color: black; 
+}
+#main-menu {
+	padding: 15px;
+	margin: 0;
+	text-align: center;
+	list-style: none;    
+	display: grid;       
+	grid-gap: 15px;          
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr ;
+	width: 98%;
+	background: #f4f4f4;
+
+}
+
+/*-----------------------------------------------------------PARALLAX MEYN---------------------------------------------------*/
+.parallax, .parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6{
+	position: relative;
+	background-position: 55% 45%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	transition: all .5s ease-out;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height:80%;
+	width: 80%;
+}
+.parallax:hover, .parallax1:hover, .parallax2:hover, .parallax3:hover, .parallax4:hover, .parallax5:hover, .parallax6:hover{
+	position: relative;
+	background-position: 55% 45%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height:80%;
+	width: 80%;
+}
+.parallax {
+	background-image: url(../images/sunset5.jpg);
+}
+
+.parallax:hover{
+	background-image: url(../images/sunn.jpg);
+	min-height: 600px;
+	background-position: 85% 15%;
+}
+.parallax1 {
+	background-image: url(../images/machoo.jpg);
+}
+.parallax1:hover{
+	background-image: url(../images/mach.jpg);
+	min-height: 600px;
+	background-position: center center;
+}
+.parallax2 {
+	background-image: url(../images/sanjuu.jpg);
+	background-position: center;
+	
+}
+.parallax2:hover{
+	background-image: url(../images/ssaann.jpg);
+	min-height: 600px;
+	background-position: center center;
+}
+.parallax3 {
+	background-image: url(../images/5.jpg);
+	
+}
+.parallax3:hover{
+	background-image: url(../images/lunan.jpg);
+	min-height: 600px;
+	background-position: center center;
+}
+.parallax4 {
+	background-image: url(../images/sangabriel.jpg);
+}
+
+.parallax4:hover{
+	background-image: url(../images/tangadan2.jpg);
+	min-height: 600px;
+	background-position: center;
+}
+.parallax5 {
+	background-image: url(../images/pugo.JPG);
+	background-position:center;
+}
+.parallax5:hover{
+	background-image: url(../images/kultura.JPG);
+	min-height: 600px;
+	background-position: center center;
+}
+.parallax6 {
+	background-image: url(../images/immu.jpg);
+	background-position: center center;
+}
+.parallax6:hover{
+	background-image: url(../images/final.jpg);
+	background-position: center center;
+}
+.texts {
+	position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+}
+.places{
+	padding: 20px;
+	background: #aad4ec;
+	opacity:0.6;
+}
+section {
+	padding: 80px 50px;
+}
+/*------------------------------------------------------------------------ARTICLES MEYN---------------------------------------------------------*/
+.articles {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-templete-rows: 1fr;
+	
+}
+.articles1 {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr;
+	grid-templete-rows: 1fr;
+	
+}
+/*---------------------------------------------------------------------------------IMAGES MEYN---------------------------------*/
+#img, #img1, #img2, #img3, #img4, #img5, #img6{
+	box-shadow:0 0 10px black;
+	margin: 2px;
+	padding: 2px;
+	transition: all .5s ease-out;
+}
+#img:hover, #img1:hover, #img2:hover, #img3:hover, #img4:hover, #img5:hover, #img6:hover{
+	box-shadow:0 0 10px black;
+	margin: 2px;
+	padding: 2px;
+}
+#img{
+	background-image: url(../images/map.png);
+	background-position: top center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 50px;
+	
+}
+
+#img:hover{
+	background-image: url(../gif/tataa.gif);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: 300px 300px;
+	padding: 50px;
+	
+}
+#img1 {
+	background-image: url(../images/sfc.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 50px;
+	
+}
+#img1:hover {
+	background-image: url(../gif/sfc.gif);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 50px;
+	
+}
+#img2 {
+	background-image: url(../images/sj.png);
+	background-position: top center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 50px;
+	
+}
+
+#img2:hover {
+	background-image: url(../gif/sj.gif);
+	background-position: top center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 50px;
+	
+}
+#img3 {
+	background-image: url(../images/luna.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 50px;
+	
+}
+#img3:hover {
+	background-image: url(../gif/luna.gif);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 50px;
+	
+}
+#img4 {
+	background-image: url(../images/sg.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 50px;
+	
+}
+#img4:hover {
+	background-image: url(../gif/sangabriel.gif);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 50px;
+	
+}
+#img5 {
+	background-image: url(../images/pugo.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 50px;
+	
+}
+#img5:hover {
+	background-image: url(../gif/pugo.gif);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 50px;
+	
+}
+#img6 {
+	background-image: url(../images/balaoan.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 50px;
+	
+}
+#img6:hover {
+	background-image: url(../gif/balaoan.gif);
+	background-position: bottom center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 50px;
+	
+}
+/*-----------------------------------------------------------------------INSIDE THE ARTICLE MEYN--------------------------------------*/
+#article {
+	background-image: url(../gif/launion.gif);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 50px;
+}
+#article:hover {
+	background-image: url(../gif/launionn.gif);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 50px;
+	color: white;
+}
+#article1, #article2, #article3, #article4, #article5, #article6, #article7, #article8, #article9, #article10, #article11, #article12 {
+	background: #aad4ec;
+	color: black;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left:50px;
+	padding-right:50px;
+	transition: all .5s ease-out;
+}
+
+#RM{
+	background: #f4f4f4; 
+	color: black;
+	padding: 10px 25px;
+}
+#RM:hover {
+	background-color: white;
+    color: black;
+    border: 2px solid #f4f4f4;
+}
+#rm{
+	text-align: center;
+}
+
+
+/*-------------------------------------------------------FOOTER----------------------------------------------*/
+.footer{
+	background-color: #5d7e72;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+

@@ -1,0 +1,214 @@
+body {
+	color: black;
+	font-family: Courier New;
+	background:#f4f4f4;
+	font-weight:400;
+    line-height:1.8em;
+	margin: 0 50px 0 50px;
+}
+body, html{
+	height:100%;
+}
+a {
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+}
+/*-----------------------------------------HEADER MEYN------------------------------------------------*/
+.header {
+    position: fixed;
+    right: 50px;
+    width: 100%;
+    top:0;
+    left: 0;
+    display: grid;
+    justify-content: none;
+    align-items: center;
+    z-index: 1;
+    text-align: center; 
+}
+.button{
+	background: #ffd6b1; 
+	color: black;
+	padding: 10px 20px;
+	transition: all .5s ease-out;
+}
+.button:hover{
+	background: #aad4ec;
+	color: black; 
+}
+#main-menu {
+	padding: 15px;
+	margin: 0;
+	text-align: center;
+	list-style: none;    
+	display: grid;       
+	grid-gap: 15px;          
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr ;
+	width: 100%;
+	background: #f4f4f4;
+}
+
+
+.bebe {
+	background-image: url(../images/launion.jpeg);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.love{
+	background: #f4f4f4;
+	opacity: 0.8;
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.andrada {
+	background-image: url(../images/sj.jpg);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.alvin{
+	background: #f0efec;
+	border: 5px #e7fdff double;
+	margin-bottom: 7px;
+}
+
+#service{
+	text-align: center;
+	color: #030404;
+	background: #f0efec;
+	padding: 0;
+	margin: 30px 50px;
+	font-size: 80px;
+}
+.pics{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+}
+#first{
+	background-image: url(../images/hotel1.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 25%;
+	margin-left: 62.5px;
+	margin-right: 62.5px;
+	border: 3px #040404 solid;
+	margin-bottom: 10px;
+	transition: all .5s ease-out;
+}
+#first:hover{
+	background-image: url(../images/hotels.jpg);
+	color: #030404;
+	margin: 7px 7px;
+	background-position: center;
+	
+}
+#second{
+	background-image: url(../images/food1.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 25%;
+	margin-left: 62.5px;
+	margin-right: 62.5px;
+	border: 3px #040404 solid;
+	margin-bottom: 10px;
+	transition: all .5s ease-out;
+}
+#second:hover{
+	background-image: url(../images/foods.jpg);
+	background-position: center;
+	color: #030404;
+	margin: 7px 7px;
+}
+#third{
+	background-image: url(../images/ride1.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 25%;
+	margin-left: 62.5px;
+	margin-right: 62.5px;
+	border: 3px #040404 solid;
+	margin-bottom: 10px;
+	transition: all .5s ease-out;
+}
+#third:hover{
+	background-image: url(../images/rides.jpg);
+	background-position: center;
+	color: #030404;
+	margin: 7px 7px;
+}
+#aja {
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+}
+
+#una{
+	background-image: url(../images/single.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 25%;
+	margin-left: 62.5px;
+	margin-right: 62.5px;
+	border: 3px #040404 solid;
+	margin-bottom: 10px;
+	transition: all .5s ease-out;
+	background-position: center;
+}
+
+#pangalawa{
+	background-image: url(../images/fam.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 25%;
+	margin-left: 62.5px;
+	margin-right: 62.5px;
+	border: 3px #040404 solid;
+	margin-bottom: 10px;
+	transition: all .5s ease-out;
+	background-position: center;
+}
+#pangatlo{
+	background-image: url(../images/full.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 25%;
+	margin-left: 62.5px;
+	margin-right: 62.5px;
+	border: 3px #040404 solid;
+	margin-bottom: 10px;
+	transition: all .5s ease-out;
+	background-position: center;
+}
+#una:hover{
+	background-image: url(../gif/walking.gif);
+	color: #030404;
+	margin: 7px 7px;
+	background-position: center;
+	
+}
+#pangalawa:hover{
+	background-image: url(../gif/full.gif);
+	background-position: top center;
+	color: #030404;
+	margin: 7px 7px;
+}
+#pangatlo:hover{
+	background-image: url(../gif/fam.gif);
+	background-position: top center;
+	color: #030404;
+	margin: 7px 7px;
+}
+.footer{
+	background-color: #5d7e72;
+	text-align: center;
+	margin-bottom: 10px;
+}
