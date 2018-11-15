@@ -16,6 +16,9 @@ h1{
 	text-align: center;
 }
 /*-----------------------------------------HEADER MEYN------------------------------------------------*/
+.hd{
+	padding: 55px;
+}
 .header {
     position: fixed;
     right: 50px;
@@ -47,7 +50,7 @@ h1{
 	grid-gap: 15px;          
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr ;
-	width: 100%;
+	width: 98%;
 	background: #f4f4f4;
 }
 
