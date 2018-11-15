@@ -98,7 +98,7 @@ a {
 
 }
 #we{
-	font-size: 55px;
+	font-size: 45px;
 	letter-spacing: 20px;
 }
 .about{
@@ -106,13 +106,13 @@ a {
 	font-size: 20px;
 }
 #paragraph{
-	font-size: 20px;
+	font-size: 18px;
 }
 .article-right{
 	color: #414040;
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
-	grid-gap: 5px;
+	grid-gap: 10px;
 }
 .img1{
 	/*background: #f4f4f4;*/
